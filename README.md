@@ -10,6 +10,11 @@ Welcome to InfiniTacToe, a modified version of the classic TicTacToe game where 
 3. **Replacement**: After a specific number of moves without a win, a player's fourth mark is placed in an empty cell, erasing their oldest mark on the board.
 4. **Winning**: The winning condition is the same as the classic game, this way your surefire winning tatic (may) also work here.
 
+
+
+
+
+
 🇧🇷
 # InfiniTacToe - Jogo da Velha
 
