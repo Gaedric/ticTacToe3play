@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+#gamebox {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "block0 block1 block2"
+    "block3 block4 block5"
+    "block6 block7 block8";
+    height: 75vh;
+    width: 75vh;
+}
+header h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 8vh;
+    color: #149414;
+    margin-bottom: 7vh;
+    animation: zoomIn 1s ease-in-out;
+}
+.blocos {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:calc((75vh +3px)/3);
+    width:calc((75vh +3px)/3);
+    font-family: "Jersey 25", sans-serif;
+    font-size: calc((75vh + 3px)/3/2);
+    color: #149414;
+    cursor: pointer;
+    border: 4px dashed #149414;
+    animation: zoomIn 1s ease-in-out;   
+}
+#block0 {
+    border-top: 0px;
+    border-left: 0px;
+}
+#block1 {
+    border-top: 0px;
+}
+#block2 {
+    border-top: 0px;
+    border-right: 0px;
+}
+#block3 {
+    border-left: 0px;
+}
+#block5 {
+    border-right: 0px;
+}
+#block6 {
+    border-bottom: 0px;
+    border-left: 0px;
+}
+#block7 {
+    border-bottom: 0px;
+}
+#block8 {
+    border-bottom: 0px;
+    border-right: 0px;
+}
+
+
+
+
