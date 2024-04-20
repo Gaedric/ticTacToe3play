@@ -10,11 +10,6 @@ Welcome to InfiniTacToe, a modified version of the classic TicTacToe game where 
 3. **Replacement**: After a specific number of moves without a win, a player's fourth mark is placed in an empty cell, erasing their oldest mark on the board.
 4. **Winning**: The winning condition is the same as the classic game, this way your surefire winning tatic (may) also work here.
 
-
-
-
-
-
 🇧🇷
 # InfiniTacToe - Jogo da Velha
 
@@ -23,7 +18,7 @@ Bem-vindo ao InfiniTacToe, uma versão modificada do clássico Jogo da Velha ond
 ## Como Jogar
 
 1. **Configuração**: InfiniTacToe é jogado em uma grade 3x3.
-2. **Marcação**: Os jogadores alternam marcando O (primeiro e a cada outro clique ímpar) ou X (segundo e a cada outro clique ímpar) em células vazias.
-3. **Substituição**: Após um número específico de jogadas sem uma vitória, a quarta marca do jogador é colocada em uma célula vazia, apagando sua marca mais antiga no tabuleiro.
+2. **Marcação**: Os jogadores alternam marcando O (primeiro e a cada outro clique ímpar) ou X (segundo e a cada outro clique par) em espaços vazios.
+3. **Substituição**: Após um número específico de jogadas sem uma vitória, a quarta marca do jogador, quando colocada em um espaço vazio apaga sua marca mais antiga no tabuleiro.
 4. **Vitória**: A condição de vitória é a mesma do jogo clássico, dessa forma, sua tática infalível de vitória (pode) também funcionar aqui.
 
